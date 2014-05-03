@@ -35,3 +35,8 @@
 * + Background color is #0b0f11
 * New design: (with mouse over the last link)
 ![alt tag](http://i.minus.com/ioi9m8gjTrXTx.png)
+------------------------------------------------
+* We cannot tweak the color of the text "The most important things are not things" because it is not texts - it's embedded in the image http://www.postmachina.com/images/home_bg.gif as a single entity
+* -------------------------------------------------
+* The largest (size) image is http://www.ticketswizard.com/Images/Catalog/92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png. I found out using the Network tab and sort the size from descending order.
+![alt tag](http://i.minus.com/ibmT1MxjHJxplA.png)
