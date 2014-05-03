@@ -25,3 +25,13 @@
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.
 
 * Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the lowest hanging fruit to optimize the website?  How many kilobytes of data can be eliminated?
+=========================================================================================================================
+* HTML & CSS can be edited using Sources tab and Styles tab (by modifying the code)
+* Javascript can be debugged by using Sources tab to trace the code (bugs will be hightlighted)
+* Performance Oprimization can be done with the help of using Network tab to see how many elements there are, how big each element is and how long it takes to load each element, etc.
+* On Windows the hot key is Ctrl + Shift + I
+* -----------------------------------------
+* Go to http://www.postmachina.com/ and analyze and tweak this nicely designed page.
+* + Background color is #0b0f11
+* New design: (with mouse over the last link)
+![alt tag](http://i.minus.com/ioi9m8gjTrXTx.png)
