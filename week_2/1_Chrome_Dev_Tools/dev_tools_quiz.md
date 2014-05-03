@@ -25,7 +25,8 @@
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.
 
 * Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the lowest hanging fruit to optimize the website?  How many kilobytes of data can be eliminated?
-=========================================================================================================================
+* =======================================================================================================================
+##ANSWER
 * HTML & CSS can be edited using Sources tab and Styles tab (by modifying the code)
 * Javascript can be debugged by using Sources tab to trace the code (bugs will be hightlighted)
 * Performance Oprimization can be done with the help of using Network tab to see how many elements there are, how big each element is and how long it takes to load each element, etc.
@@ -40,3 +41,8 @@
 * -------------------------------------------------
 * The largest (size) image is http://www.ticketswizard.com/Images/Catalog/92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png. I found out using the Network tab and sort the size from descending order.
 ![alt tag](http://i.minus.com/ibmT1MxjHJxplA.png)
+*-------------------------------------------------------
+* The easiest way to optimize the website to me, is to remove the redirects to facebook page
+* https://www.facebook.com/plugins/like.php?href=http://ticketplatform.com/&layout=standard&show_faces=false&width=450&action=like&colorscheme=light&height=35
+* https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fticketplatform.com%2F&layout=standard&show_faces=false&width=450&action=like&colorscheme=light&height=35
+* This is, however, may not be what we would want to remove, since it is a marketing tool.
