@@ -45,4 +45,12 @@ move right x2;
 // Reflection:
 // Write your reflection here.
 
-
+1. What is this referring to? Think programming-wise rather than in the terms of the game.
+   This refers to how to use code (functions) to control the character (the object)
+   
+2. What does the () do in JavaScript?
+   Inside of () can be parameters passed into a function, or could be an expression (e.g x == 2)
+   In this program, nothing is inside () so what it does is simply calling the function
+   
+3. What is the point of the semicolons?
+   The semicolon tells the compiler that a single script has ended so that it is separated from the next script
