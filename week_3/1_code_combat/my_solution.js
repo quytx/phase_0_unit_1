@@ -4,18 +4,7 @@
 // Note: to make commenting easier, you can highlight the section you want to comment and hold 
 // command + / This will comment the line. 
  
- 
- 
- 
- 
- 
- 
- 
- 
-// Reflection:
-// Write your reflection here.
-
-// 1. Rescue Mission
+ // 1. Rescue Mission
 move down x2;
 move right x1;
 move up x2;
@@ -40,15 +29,20 @@ attack enemy;
 
 
 // 4. Taunt the guards
-this.say("Follow me.");
-this.moveRight();
-this.moveRight();
-this.moveRight();
-this.moveUp();
-this.moveRight();
-this.say("Attack!");
-this.say("Attack!");
-this.say("Attack!");
-this.say("Follow me.");
-this.moveRight();
-this.moveRight();
+say "follow me"
+move right x3;
+move up;
+move right;
+say "Attack" x3;
+say "follow me"
+move right x2;
+ 
+ 
+ 
+ 
+ 
+ 
+// Reflection:
+// Write your reflection here.
+
+
