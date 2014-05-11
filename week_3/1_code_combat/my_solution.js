@@ -23,3 +23,32 @@ move right x2;
 move down x1;
 attack the enemy;
 
+// 2. Grab the mushroom
+move up;
+move right;
+move left;
+move up;
+attack the enemy;
+
+// 3. Drink me
+attack;
+move Right;
+move Down;
+move Up;
+move Right;
+attack enemy;
+
+
+// 4. Taunt the guards
+this.say("Follow me.");
+this.moveRight();
+this.moveRight();
+this.moveRight();
+this.moveUp();
+this.moveRight();
+this.say("Attack!");
+this.say("Attack!");
+this.say("Attack!");
+this.say("Follow me.");
+this.moveRight();
+this.moveRight();
