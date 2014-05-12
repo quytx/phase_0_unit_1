@@ -45,7 +45,19 @@ var terah = {
 
 // __________________________________________
 // Write your code below.
+var adam = {
+  name: "Adam"
+};
 
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+adam.spouse = terah;
+terah.children = new Object();
+terah.children.carson = { name: "Carson" };
+terah.children.carter = { name: "Carter" };
+terah.children.colton = { name: "Colton" };
+adam.children = terah.children;
 
 
 
@@ -55,7 +67,7 @@ var terah = {
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
+// This was pretty straight-forward. I learned that you can actually delete a property of an object using delete command. That is cool!
 // 
 // 
 // 
