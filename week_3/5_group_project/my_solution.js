@@ -1,3 +1,17 @@
+*What was this experience like?
+   - It was the first time I do a group project. It feels great being able to co-operate with other team members. My part of work is doing the refractoring and it was fun reading my teammates' code and pseudo-code
+
+
+*Was your group successful in passing the tests?
+ - Yes
+
+*What did you learn about writing user stories, pseudocoding, writing code, refactoring, etc.?
+ - They all need to be concise. I tend to put too much wording in the description and definitely need to improve that.
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
 /**
 I want to test if a function behaves properly and evaluates to true given a specific number value and gives me the feedback. 
 
@@ -60,3 +74,6 @@ function median(arr) {
     var middle = arr.length / 2;
     return (arr[middle] + arr[middle - 1]) / 2;
 }
+
+
+
