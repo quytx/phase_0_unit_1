@@ -1,23 +1,22 @@
-// I paired [by myself, with:] on this challenge.
+// I paired by myself on this challenge.
 
 
 
 
 // Pseudocode
-// 
-// 
-// 
-// 
+// create a new variable named secretNumber with initialized value of 7 (number)
+// create a new variable named password with initialized value of "just open the door" (String)
+// create a new variable named allowedIn with initialized value of false (boolean)
+// create a new variable named members, which is an array of Strings. 
+// Initialize the array with at least 4 elements. The first element must be "John" and the fourth must be "Mary".
 
 
 // __________________________________________
 // Write your code below.
-
-
-
-
-
-
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false;
+var members = [ "John", "Quy", "Obama", "Mary" ];
 
 // __________________________________________
 // Refactored Code: Include a refactored version (or justification of your original code) here. 
@@ -28,12 +27,10 @@
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
-// 
-// 
-// 
-// 
+// I started by running the program in node.js, and try to figure out the issue based on the feedback message.
+// Step by step, I create variables (name, type, initial value) based on the feedback until all tests pass.
+// I learned that every test should be designed in a way so user can receive a proper feedback of what exactly the error is.
+
 
 
 // __________________________________________
